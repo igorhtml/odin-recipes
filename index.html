@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index-style.css">
     <meta charset="UTF-8">
     <title>Odin Recipes</title>
 </head>
@@ -10,20 +10,18 @@
 <body>
 
     <h1 class="title">Odin Recipes</h1>
-    <div class="container">
-        <div class="recipe">
-            <a href="./recipes/lasagna.html"><img class="thumb" width="200px" src="./recipes/img/lasagna.jpg"
-                    alt="Lasagna"></a>
-            <a class="recipe-title" href="./recipes/lasagna.html">Lasagna Recipe</a>
-        </div>
-
-        <div class="recipe">
-            <a href="./recipes/kfc-chicken.html"><img class="thumb" width="200px" src="./recipes/img/kfc-chicken.jpg"
-                    alt="Breaded chicken"></a>
-            <a class="recipe-title" href="./recipes/kfc-chicken.html">KFC Chicken Recipe</a>
-        </div>
+    <div class="flex-container">
+        <a href="./recipes/lasagna.html" class="recipe">
+            <img class="thumb" width="200px" src="./recipes/img/lasagna.jpg" alt="Lasagna">
+            <p class="recipe-title">Lasagna Recipe</p>
+        </a>
+        <a href="./recipes/kfc-chicken.html" class="recipe">
+            <img class="thumb" width="200px" src="./recipes/img/kfc-chicken.jpg" alt="Breaded chicken">
+            <p class="recipe-title">KFC Chicken Recipe</p>
+        </a>
     </div>
 
+    <div class="footer">By Igor César</div>
 </body>
 
 </html>
